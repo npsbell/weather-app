@@ -1,4 +1,5 @@
 .weather{
+    width: 360px;
     place-self: center;
     padding: 40px;
     border-radius: 10px;
@@ -11,10 +12,12 @@
 .search-bar{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 12px;
 }
 
 .search-bar input{
+    width: 200px;
     height: 50px;
     border: none;
     outline: none;
